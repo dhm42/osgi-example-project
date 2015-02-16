@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Built-By: bamboo
+Created-By: Apache Maven Bundle Plugin
+Import-Package: edu.emory.mathcs.backport.java.util;version="3.0",edu.
+ emory.mathcs.backport.java.util.concurrent;version="3.0",edu.emory.ma
+ thcs.backport.java.util.concurrent.atomic;version="3.0",edu.emory.mat
+ hcs.backport.java.util.concurrent.helpers;version="3.0",edu.emory.mat
+ hcs.backport.java.util.concurrent.locks;version="3.0",sun.misc;resolu
+ tion:=optional
+Include-Resource: @/home/bamboo/.m2/repository/backport-util-concurren
+ t/backport-util-concurrent/3.0/backport-util-concurrent-3.0.jar
+Implementation-Vendor-Id: org.springframework.osgi
+Bnd-LastModified: 1199385596803
+Export-Package: edu.emory.mathcs.backport.java.util.concurrent;uses:="
+ edu.emory.mathcs.backport.java.util,edu.emory.mathcs.backport.java.ut
+ il.concurrent.atomic,edu.emory.mathcs.backport.java.util.concurrent.l
+ ocks,edu.emory.mathcs.backport.java.util.concurrent.helpers";version=
+ "3.0",edu.emory.mathcs.backport.java.util;uses:="edu.emory.mathcs.bac
+ kport.java.util.concurrent.helpers";version="3.0",edu.emory.mathcs.ba
+ ckport.java.util.concurrent.locks;uses:="edu.emory.mathcs.backport.ja
+ va.util.concurrent,edu.emory.mathcs.backport.java.util.concurrent.hel
+ pers";version="3.0",edu.emory.mathcs.backport.java.util.concurrent.he
+ lpers;uses:="sun.misc,edu.emory.mathcs.backport.java.util.concurrent,
+ edu.emory.mathcs.backport.java.util,edu.emory.mathcs.backport.java.ut
+ il.concurrent.locks";version="3.0",edu.emory.mathcs.backport.java.uti
+ l.concurrent.atomic;version="3.0"
+Bundle-Version: 3.0.0.SNAPSHOT
+Bundle-Name: backport-util-concurrent.osgi
+Bundle-Description: backport-util-concurrent (OSGi version)
+Build-Jdk: 1.5.0_13
+Private-Package: !*
+Ant-Version: Apache Ant 1.6.5
+Originally-Created-By: 1.4.2_03-b02 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+Implementation-Title: Spring Dynamic Modules Framework
+Bundle-SymbolicName: org.springframework.osgi.backport-util-concurrent
+ .osgi
+Tool: Bnd-0.0.226
+Implementation-Version: 3.0
+Implementation-Vendor: Spring Dynamic Modules Framework
+Embed-Dependency: *;scope=provided;type=!pom;inline=true
+

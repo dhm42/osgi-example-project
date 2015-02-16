@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-Description: Generated using Pax-Construct
+Bundle-SymbolicName: fr.thispro.bundle1
+Built-By: Sara
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1424104840586
+Import-Package: fr.thispro.bundle1;version="1.0.0.SNAPSHOT"
+Tool: Bnd-0.0.255
+Export-Package: fr.thispro.bundle1;version="1.0.0.SNAPSHOT"
+Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-Name: fr.thispro.bundle1
+Private-Package: fr.thispro.bundle1.internal
+Ignore-Package: fr.thispro.bundle1.internal
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_31
+

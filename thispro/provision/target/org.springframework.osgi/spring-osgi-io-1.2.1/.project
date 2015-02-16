@@ -1,0 +1,20 @@
+<projectDescription>
+  <name>org.springframework.osgi.spring-osgi-io [1.2.1]</name>
+  <comment>Spring/OSGi IO abstract classes. Provides Resource, ResourceLoader and ResourcePatternResolver for OSGi environments.</comment>
+  <projects/>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.pde.ManifestBuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.pde.SchemaBuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+    <nature>org.eclipse.pde.PluginNature</nature>
+  </natures>
+</projectDescription>

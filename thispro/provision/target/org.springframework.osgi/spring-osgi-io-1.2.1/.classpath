@@ -1,0 +1,4 @@
+<classpath>
+  <classpathentry path=".ignore" kind="output"/>
+  <classpathentry exported="true" path="." kind="lib"/>
+</classpath>
